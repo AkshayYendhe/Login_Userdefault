@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1C544A2979088700B01B2F /* FunctionCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C54492979088700B01B2F /* FunctionCollection.swift */; };
+		EF83308C298B899B00B167EC /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF83308B298B899B00B167EC /* AdminViewController.swift */; };
+		EF88967C29766CB400E4B4DD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88967B29766CB400E4B4DD /* LogInViewController.swift */; };
+		EF88967E29766D2600E4B4DD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88967D29766D2600E4B4DD /* SignUpViewController.swift */; };
+		EF889680297673F300E4B4DD /* NewUserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88967F297673F300E4B4DD /* NewUserStruct.swift */; };
 		EFAA2B3D297668ED00CA0920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA2B3C297668ED00CA0920 /* AppDelegate.swift */; };
 		EFAA2B3F297668ED00CA0920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA2B3E297668ED00CA0920 /* SceneDelegate.swift */; };
 		EFAA2B41297668ED00CA0920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA2B40297668ED00CA0920 /* ViewController.swift */; };
 		EFAA2B44297668ED00CA0920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAA2B42297668ED00CA0920 /* Main.storyboard */; };
 		EFAA2B46297668EE00CA0920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAA2B45297668EE00CA0920 /* Assets.xcassets */; };
 		EFAA2B49297668EE00CA0920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAA2B47297668EE00CA0920 /* LaunchScreen.storyboard */; };
+		EFC0873D29810F8A001BC358 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0873C29810F8A001BC358 /* WelcomeViewController.swift */; };
+		EFC0873F298116DA001BC358 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0873E298116DA001BC358 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF1C54492979088700B01B2F /* FunctionCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionCollection.swift; sourceTree = "<group>"; };
+		EF83308B298B899B00B167EC /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		EF88967B29766CB400E4B4DD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EF88967D29766D2600E4B4DD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF88967F297673F300E4B4DD /* NewUserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserStruct.swift; sourceTree = "<group>"; };
 		EFAA2B39297668ED00CA0920 /* Login_Userdefault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Userdefault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAA2B3C297668ED00CA0920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAA2B3E297668ED00CA0920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		EFAA2B45297668EE00CA0920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAA2B48297668EE00CA0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAA2B4A297668EE00CA0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC0873C29810F8A001BC358 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EFC0873E298116DA001BC358 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				EFAA2B3C297668ED00CA0920 /* AppDelegate.swift */,
 				EFAA2B3E297668ED00CA0920 /* SceneDelegate.swift */,
 				EFAA2B40297668ED00CA0920 /* ViewController.swift */,
+				EF88967B29766CB400E4B4DD /* LogInViewController.swift */,
 				EFAA2B42297668ED00CA0920 /* Main.storyboard */,
+				EFC0873C29810F8A001BC358 /* WelcomeViewController.swift */,
+				EFC0873E298116DA001BC358 /* EditViewController.swift */,
+				EF88967D29766D2600E4B4DD /* SignUpViewController.swift */,
+				EF83308B298B899B00B167EC /* AdminViewController.swift */,
+				EF88967F297673F300E4B4DD /* NewUserStruct.swift */,
+				EF1C54492979088700B01B2F /* FunctionCollection.swift */,
 				EFAA2B45297668EE00CA0920 /* Assets.xcassets */,
 				EFAA2B47297668EE00CA0920 /* LaunchScreen.storyboard */,
 				EFAA2B4A297668EE00CA0920 /* Info.plist */,
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF88967C29766CB400E4B4DD /* LogInViewController.swift in Sources */,
+				EFC0873D29810F8A001BC358 /* WelcomeViewController.swift in Sources */,
 				EFAA2B41297668ED00CA0920 /* ViewController.swift in Sources */,
 				EFAA2B3D297668ED00CA0920 /* AppDelegate.swift in Sources */,
 				EFAA2B3F297668ED00CA0920 /* SceneDelegate.swift in Sources */,
+				EF1C544A2979088700B01B2F /* FunctionCollection.swift in Sources */,
+				EF889680297673F300E4B4DD /* NewUserStruct.swift in Sources */,
+				EF88967E29766D2600E4B4DD /* SignUpViewController.swift in Sources */,
+				EF83308C298B899B00B167EC /* AdminViewController.swift in Sources */,
+				EFC0873F298116DA001BC358 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
