@@ -427,7 +427,7 @@
                                     <constraint firstAttribute="height" constant="34" id="FWY-sk-7Gc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bz0-ZG-E7Z">
                                 <rect key="frame" x="62" y="452" width="261" height="35"/>

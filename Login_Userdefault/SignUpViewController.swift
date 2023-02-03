@@ -30,7 +30,7 @@ class SignUpViewController: UIViewController {
                 
                 // UserDefaults.standard.set(pass, forKey: emailAddress)
                 UserDefaults().set(userArray, forKey: emailAddress)
-                functionObj.showAlert(vc: self, title: "Saved!", message: "User has been registered.")
+                functionObj.showAlert(vc: self, title: "Saving", message: "Account has been created!",handler: moveToNextVC)
             }
             else{
                 functionObj.showAlert(vc: self, title: "Correction?", message: "Please Enter Email = xyz@gmail.com and Password = Xyz@123 In Given Format.")
@@ -40,19 +40,13 @@ class SignUpViewController: UIViewController {
     
     @IBAction func createAccountButtonAction(_ sender: Any) {
         
-        
         saveData()
-        let alert = UIAlertController(title: "Saving", message: "Account has been created!", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Done", style: .default, handler: { _ in
-            moveToNextVC()
-        }))
-        present(alert, animated: true,completion: nil)
         
-        
-        
-        func moveToNextVC() {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
+    }
+        func moveToNextVC(alert : UIAlertAction!) {
+            let main = UIStoryboard(name: "Main", bundle: .main)
+            let vc = main.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
             navigationController?.pushViewController(vc, animated: true)
         }
-    }
+    
 }

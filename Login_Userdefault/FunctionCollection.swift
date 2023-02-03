@@ -10,10 +10,10 @@ import UIKit
 
 class FunctionCollection{
     
-    func showAlert(vc : UIViewController, title : String, message : String){
+    func showAlert(vc : UIViewController, title : String, message : String,handler : ((UIAlertAction) -> Void)? = nil){
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler : handler))
         vc.present(alert, animated: true, completion: nil)
         
     }
