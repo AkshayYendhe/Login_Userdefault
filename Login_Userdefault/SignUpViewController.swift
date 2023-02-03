@@ -52,7 +52,7 @@ class SignUpViewController: UIViewController {
         
         func moveToNextVC() {
             let vc = storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
-            self.present(vc, animated: true)
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

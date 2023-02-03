@@ -2,7 +2,6 @@
 //  LogInViewController.swift
 //  Login_Userdefault
 //
-//  Created by Akshay Yendhe on 17/01/23.
 //
 
 import UIKit

@@ -15,12 +15,13 @@ class AdminViewController: UIViewController,UITableViewDataSource,UITableViewDel
     //var range = userDefaultDictKeys.count
 
     @IBOutlet weak var myTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(userDefaultDictKeys)
         
         for key in userDefaultDictKeys {
-            if functionObj.isValidEmail(email: key) == true {
+            if functionObj.isValidEmail(email: key) == true && key != "admin@gmail.com" {
                 emails.append(key)
             }
         }
